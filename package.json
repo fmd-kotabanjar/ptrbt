@@ -1,0 +1,32 @@
+{
+  "name": "fonnte-gemini-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp AI chatbot using Fonnte API and Google Gemini",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "fonnte",
+    "gemini",
+    "ai",
+    "chatbot"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.1.1",
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
